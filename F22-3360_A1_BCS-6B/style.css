@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: background 0.3s ease-in-out;
+}
+.navbar-brand {
+  color: #ffcc00; /* Changed to a golden yellow */
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffcc00;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 100px 0;
+  background: linear-gradient(135deg, #1e1e1e, #292929);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+.hero-section:hover {
+  transform: scale(1.02);
+}
+.btn-custom {
+  background-color: #ffcc00;
+  color: #121212;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+.btn-custom:hover {
+  background-color: #e6b800;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features-section {
+  padding: 50px 0;
+  background: #1e1e1e;
+  color: #ffffff;
+}
+.feature-card {
+  background-color: #292929;
+  border: 1px solid #ffcc00;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  background-color: #383838;
+}
+.feature-card i {
+  color: #ffcc00;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.feature-card h3 {
+  color: #ffffff;
+}
+.feature-card p {
+  color: #cccccc;
+}
+
+/* Reviews and Contact Section */
+.bg-light {
+  background-color: #292929 !important;
+}
+.reviews-section, .contact-section {
+  padding: 50px 0;
+  background: #1e1e1e;
+  color: #ffffff;
+}
+.review-card, .contact-card {
+  background-color: #292929;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffcc00;
+}
+.review-card h3, .contact-card h3 {
+  color: #ffcc00;
+}
+.review-card p, .contact-card p {
+  color: #ffffff;
+}
+
+/* Forms */
+.form-control {
+  background-color: #1e1e1e;
+  border: 1px solid #ffcc00;
+  color: white;
+  transition: border 0.3s ease-in-out;
+}
+.form-control::placeholder {
+  color: #ffffff;
+  opacity: 0.8;
+}
+.form-control:focus {
+  background-color: #292929;
+  color: white;
+  border-color: #e6b800;
+  box-shadow: none;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  padding: 20px 0;
+  text-align: center;
+}
+.social-icon {
+  color: #ffcc00;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out, transform 0.2s;
+}
+.social-icon:hover {
+  color: #e6b800;
+  transform: scale(1.1);
+}
+
+/* Chat Box */
+.chat-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.chat-box:hover {
+  transform: scale(1.05);
+}
+.chat-header {
+  background-color: #ffcc00;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #121212;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.chat-footer {
+  border-top: 1px solid #ffcc00;
+  padding: 10px;
+}
+.chat-footer input {
+  width: 100%;
+  background-color: #1e1e1e;
+  border: none;
+  color: white;
+  transition: border 0.3s ease-in-out;
+}
